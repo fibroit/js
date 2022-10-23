@@ -18,7 +18,7 @@ function limpiar() {
 var validation = "";
 
 function validateForm() {
-    validation = "tdgdgsg";
+    validation = "";
     let estatus = true;
     let nombre = document.getElementById("nombre");
     let telefono = document.getElementById("telefono");
