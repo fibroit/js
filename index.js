@@ -103,7 +103,6 @@ btnGuardar.addEventListener("click", (event) => {
     };
     found = amigos.find(prueba => {
         if (prueba.telefono == formulario[1].value) {
-            // repetido.innerHTML=`<h3>numero repetido</h3>`;
             return prueba;
         }
     })
